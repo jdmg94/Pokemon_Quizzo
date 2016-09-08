@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         btnStartQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent openQuizzo = new Intent(getApplicationContext(),quizzo.class);
+                Intent openQuizzo = new Intent(getBaseContext(),quizzo.class);
                 startActivity(openQuizzo);
 
             }

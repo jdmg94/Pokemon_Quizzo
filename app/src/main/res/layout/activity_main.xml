@@ -7,14 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="co.superiortech.pokemonquizzo.co.source.controllers.MainActivity">
+    tools:context="co.superiortech.pokemonquizzo.co.source.controllers.MainActivity"
+    android:background="@color/colorSecondary">
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Can you Name 'em All?"
         android:layout_centerHorizontal="true"
-        android:textSize="30dp"
+        android:textSize="27dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:textStyle="bold"
         android:textColor="#000"
         android:id="@+id/lblMain"
         />

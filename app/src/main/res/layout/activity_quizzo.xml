@@ -7,22 +7,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorSecondary"
     tools:context="co.superiortech.pokemonquizzo.co.source.controllers.quizzo">
 
-    <com.nhaarman.listviewanimations.extras.itemmanipulation.widget.DynamicListView
+    <!-- com.nhaarman.listviewanimations.extras.itemmanipulation.widget.Dynamic -->
 
+    <ListView
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_toStartOf="@+id/txtEntry"
         android:id="@+id/lstPokemonEntries"
-        />
+        android:layout_above="@+id/txtEntry"
+        android:layout_alignEnd="@+id/txtEntry" />
 
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:id="@+id/txtEntry"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:imeOptions="actionSend"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
