@@ -1,5 +1,6 @@
 package co.superiortech.pokemonquizzo.co.source.controllers;
 
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.CountDownTimer;
 import android.support.v7.app.AlertDialog;
@@ -7,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -35,6 +37,16 @@ public class quizzo extends AppCompatActivity {
         super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.main,menu);
 
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        super.onOptionsItemSelected(item);
+        if(item.getItemId() == R.id.done){
+            timer.cancel();
+            gameUp();
+        }
         return true;
     }
 
@@ -107,10 +119,7 @@ public class quizzo extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-                setTitle("Time is Up!");
-                txtEntry.setText("");
-                txtEntry.setEnabled(false);
-                new AlertDialog.Builder(quizzo.this).setMessage("You got:\n"+correctPokemons.size()+" out of "+pokedexTotal).setTitle("Time is up!").create().show();
+                gameUp();
             }
         };
         timer.start();
@@ -132,6 +141,18 @@ public class quizzo extends AppCompatActivity {
            }
        }
         return result;
+    }
+
+    private void gameUp(){
+        setTitle("Time is Up!");
+        txtEntry.setText("");
+        txtEntry.setEnabled(false);
+        new AlertDialog.Builder(quizzo.this).setMessage("You got:\n"+correctPokemons.size()+" out of "+pokedexTotal).setTitle("Time is up!").setPositiveButton("Close", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                quizzo.this.finish();
+            }
+        }).create().show();
     }
 
 }
