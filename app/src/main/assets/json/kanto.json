@@ -1,0 +1,757 @@
+[
+  {
+    "alternative": "bulbasaur",
+    "name": "Bulbasaur",
+    "pokedexNumber": 1
+  },
+  {
+    "alternative": "ivysaur",
+    "name": "Ivysaur",
+    "pokedexNumber": 2
+  },
+  {
+    "alternative": "venusaur",
+    "name": "Venusaur",
+    "pokedexNumber": 3
+  },
+  {
+    "alternative": "charmander",
+    "name": "Charmander",
+    "pokedexNumber": 4
+  },
+  {
+    "alternative": "charmeleon",
+    "name": "Charmeleon",
+    "pokedexNumber": 5
+  },
+  {
+    "alternative": "charizard",
+    "name": "Charizard",
+    "pokedexNumber": 6
+  },
+  {
+    "alternative": "squirtle",
+    "name": "Squirtle",
+    "pokedexNumber": 7
+  },
+  {
+    "alternative": "wartortle",
+    "name": "Wartortle",
+    "pokedexNumber": 8
+  },
+  {
+    "alternative": "blastoise",
+    "name": "Blastoise",
+    "pokedexNumber": 9
+  },
+  {
+    "alternative": "caterpie",
+    "name": "Caterpie",
+    "pokedexNumber": 10
+  },
+  {
+    "alternative": "metapod",
+    "name": "Metapod",
+    "pokedexNumber": 11
+  },
+  {
+    "alternative": "butterfree",
+    "name": "Butterfree",
+    "pokedexNumber": 12
+  },
+  {
+    "alternative": "weedle",
+    "name": "Weedle",
+    "pokedexNumber": 13
+  },
+  {
+    "alternative": "kakuna",
+    "name": "Kakuna",
+    "pokedexNumber": 14
+  },
+  {
+    "alternative": "beedrill",
+    "name": "Beedrill",
+    "pokedexNumber": 15
+  },
+  {
+    "alternative": "pidgey",
+    "name": "Pidgey",
+    "pokedexNumber": 16
+  },
+  {
+    "alternative": "pidgeotto",
+    "name": "Pidgeotto",
+    "pokedexNumber": 17
+  },
+  {
+    "alternative": "pidgeot",
+    "name": "Pidgeot",
+    "pokedexNumber": 18
+  },
+  {
+    "alternative": "rattata",
+    "name": "Rattata",
+    "pokedexNumber": 19
+  },
+  {
+    "alternative": "raticate",
+    "name": "Raticate",
+    "pokedexNumber": 20
+  },
+  {
+    "alternative": "spearow",
+    "name": "Spearow",
+    "pokedexNumber": 21
+  },
+  {
+    "alternative": "fearow",
+    "name": "Fearow",
+    "pokedexNumber": 22
+  },
+  {
+    "alternative": "ekans",
+    "name": "Ekans",
+    "pokedexNumber": 23
+  },
+  {
+    "alternative": "arbok",
+    "name": "Arbok",
+    "pokedexNumber": 24
+  },
+  {
+    "alternative": "pikachu",
+    "name": "Pikachu",
+    "pokedexNumber": 25
+  },
+  {
+    "alternative": "raichu",
+    "name": "Raichu",
+    "pokedexNumber": 26
+  },
+  {
+    "alternative": "sandshrew",
+    "name": "Sandshrew",
+    "pokedexNumber": 27
+  },
+  {
+    "alternative": "sandslash",
+    "name": "Sandslash",
+    "pokedexNumber": 28
+  },
+  {
+    "alternative": "nidoran",
+    "name": "Nidoran♀",
+    "pokedexNumber": 29
+  },
+  {
+    "alternative": "nidorina",
+    "name": "Nidorina",
+    "pokedexNumber": 30
+  },
+  {
+    "alternative": "nidoqueen",
+    "name": "Nidoqueen",
+    "pokedexNumber": 31
+  },
+  {
+    "alternative": "nidoran",
+    "name": "Nidoran♂",
+    "pokedexNumber": 32
+  },
+  {
+    "alternative": "nidorino",
+    "name": "Nidorino",
+    "pokedexNumber": 33
+  },
+  {
+    "alternative": "nidoking",
+    "name": "Nidoking",
+    "pokedexNumber": 34
+  },
+  {
+    "alternative": "clefairy",
+    "name": "Clefairy",
+    "pokedexNumber": 35
+  },
+  {
+    "alternative": "clefable",
+    "name": "Clefable",
+    "pokedexNumber": 36
+  },
+  {
+    "alternative": "vulpix",
+    "name": "Vulpix",
+    "pokedexNumber": 37
+  },
+  {
+    "alternative": "ninetales",
+    "name": "Ninetales",
+    "pokedexNumber": 38
+  },
+  {
+    "alternative": "jigglypuff",
+    "name": "Jigglypuff",
+    "pokedexNumber": 39
+  },
+  {
+    "alternative": "wigglytuff",
+    "name": "Wigglytuff",
+    "pokedexNumber": 40
+  },
+  {
+    "alternative": "zubat",
+    "name": "Zubat",
+    "pokedexNumber": 41
+  },
+  {
+    "alternative": "golbat",
+    "name": "Golbat",
+    "pokedexNumber": 42
+  },
+  {
+    "alternative": "oddish",
+    "name": "Oddish",
+    "pokedexNumber": 43
+  },
+  {
+    "alternative": "gloom",
+    "name": "Gloom",
+    "pokedexNumber": 44
+  },
+  {
+    "alternative": "vileplume",
+    "name": "Vileplume",
+    "pokedexNumber": 45
+  },
+  {
+    "alternative": "paras",
+    "name": "Paras",
+    "pokedexNumber": 46
+  },
+  {
+    "alternative": "parasect",
+    "name": "Parasect",
+    "pokedexNumber": 47
+  },
+  {
+    "alternative": "venonat",
+    "name": "Venonat",
+    "pokedexNumber": 48
+  },
+  {
+    "alternative": "venomoth",
+    "name": "Venomoth",
+    "pokedexNumber": 49
+  },
+  {
+    "alternative": "diglett",
+    "name": "Diglett",
+    "pokedexNumber": 50
+  },
+  {
+    "alternative": "dugtrio",
+    "name": "Dugtrio",
+    "pokedexNumber": 51
+  },
+  {
+    "alternative": "meowth",
+    "name": "Meowth",
+    "pokedexNumber": 52
+  },
+  {
+    "alternative": "persian",
+    "name": "Persian",
+    "pokedexNumber": 53
+  },
+  {
+    "alternative": "psyduck",
+    "name": "Psyduck",
+    "pokedexNumber": 54
+  },
+  {
+    "alternative": "golduck",
+    "name": "Golduck",
+    "pokedexNumber": 55
+  },
+  {
+    "alternative": "mankey",
+    "name": "Mankey",
+    "pokedexNumber": 56
+  },
+  {
+    "alternative": "primeape",
+    "name": "Primeape",
+    "pokedexNumber": 57
+  },
+  {
+    "alternative": "growlithe",
+    "name": "Growlithe",
+    "pokedexNumber": 58
+  },
+  {
+    "alternative": "arcanine",
+    "name": "Arcanine",
+    "pokedexNumber": 59
+  },
+  {
+    "alternative": "poliwag",
+    "name": "Poliwag",
+    "pokedexNumber": 60
+  },
+  {
+    "alternative": "poliwhirl",
+    "name": "Poliwhirl",
+    "pokedexNumber": 61
+  },
+  {
+    "alternative": "poliwrath",
+    "name": "Poliwrath",
+    "pokedexNumber": 62
+  },
+  {
+    "alternative": "abra",
+    "name": "Abra",
+    "pokedexNumber": 63
+  },
+  {
+    "alternative": "kadabra",
+    "name": "Kadabra",
+    "pokedexNumber": 64
+  },
+  {
+    "alternative": "alakazam",
+    "name": "Alakazam",
+    "pokedexNumber": 65
+  },
+  {
+    "alternative": "machop",
+    "name": "Machop",
+    "pokedexNumber": 66
+  },
+  {
+    "alternative": "machoke",
+    "name": "Machoke",
+    "pokedexNumber": 67
+  },
+  {
+    "alternative": "machamp",
+    "name": "Machamp",
+    "pokedexNumber": 68
+  },
+  {
+    "alternative": "bellsprout",
+    "name": "Bellsprout",
+    "pokedexNumber": 69
+  },
+  {
+    "alternative": "weepinbell",
+    "name": "Weepinbell",
+    "pokedexNumber": 70
+  },
+  {
+    "alternative": "victreebel",
+    "name": "Victreebel",
+    "pokedexNumber": 71
+  },
+  {
+    "alternative": "tentacool",
+    "name": "Tentacool",
+    "pokedexNumber": 72
+  },
+  {
+    "alternative": "tentacruel",
+    "name": "Tentacruel",
+    "pokedexNumber": 73
+  },
+  {
+    "alternative": "geodude",
+    "name": "Geodude",
+    "pokedexNumber": 74
+  },
+  {
+    "alternative": "graveler",
+    "name": "Graveler",
+    "pokedexNumber": 75
+  },
+  {
+    "alternative": "golem",
+    "name": "Golem",
+    "pokedexNumber": 76
+  },
+  {
+    "alternative": "ponyta",
+    "name": "Ponyta",
+    "pokedexNumber": 77
+  },
+  {
+    "alternative": "rapidash",
+    "name": "Rapidash",
+    "pokedexNumber": 78
+  },
+  {
+    "alternative": "slowpoke",
+    "name": "Slowpoke",
+    "pokedexNumber": 79
+  },
+  {
+    "alternative": "slowbro",
+    "name": "Slowbro",
+    "pokedexNumber": 80
+  },
+  {
+    "alternative": "magnemite",
+    "name": "Magnemite",
+    "pokedexNumber": 81
+  },
+  {
+    "alternative": "magneton",
+    "name": "Magneton",
+    "pokedexNumber": 82
+  },
+  {
+    "alternative": "farfetchd",
+    "name": "Farfetch'd",
+    "pokedexNumber": 83
+  },
+  {
+    "alternative": "doduo",
+    "name": "Doduo",
+    "pokedexNumber": 84
+  },
+  {
+    "alternative": "dodrio",
+    "name": "Dodrio",
+    "pokedexNumber": 85
+  },
+  {
+    "alternative": "seel",
+    "name": "Seel",
+    "pokedexNumber": 86
+  },
+  {
+    "alternative": "dewgong",
+    "name": "Dewgong",
+    "pokedexNumber": 87
+  },
+  {
+    "alternative": "grimer",
+    "name": "Grimer",
+    "pokedexNumber": 88
+  },
+  {
+    "alternative": "muk",
+    "name": "Muk",
+    "pokedexNumber": 89
+  },
+  {
+    "alternative": "shellder",
+    "name": "Shellder",
+    "pokedexNumber": 90
+  },
+  {
+    "alternative": "cloyster",
+    "name": "Cloyster",
+    "pokedexNumber": 91
+  },
+  {
+    "alternative": "gastly",
+    "name": "Gastly",
+    "pokedexNumber": 92
+  },
+  {
+    "alternative": "haunter",
+    "name": "Haunter",
+    "pokedexNumber": 93
+  },
+  {
+    "alternative": "gengar",
+    "name": "Gengar",
+    "pokedexNumber": 94
+  },
+  {
+    "alternative": "onix",
+    "name": "Onix",
+    "pokedexNumber": 95
+  },
+  {
+    "alternative": "drowzee",
+    "name": "Drowzee",
+    "pokedexNumber": 96
+  },
+  {
+    "alternative": "hypno",
+    "name": "Hypno",
+    "pokedexNumber": 97
+  },
+  {
+    "alternative": "krabby",
+    "name": "Krabby",
+    "pokedexNumber": 98
+  },
+  {
+    "alternative": "kingler",
+    "name": "Kingler",
+    "pokedexNumber": 99
+  },
+  {
+    "alternative": "voltorb",
+    "name": "Voltorb",
+    "pokedexNumber": 100
+  },
+  {
+    "alternative": "electrode",
+    "name": "Electrode",
+    "pokedexNumber": 101
+  },
+  {
+    "alternative": "exeggcute",
+    "name": "Exeggcute",
+    "pokedexNumber": 102
+  },
+  {
+    "alternative": "exeggutor",
+    "name": "Exeggutor",
+    "pokedexNumber": 103
+  },
+  {
+    "alternative": "cubone",
+    "name": "Cubone",
+    "pokedexNumber": 104
+  },
+  {
+    "alternative": "marowak",
+    "name": "Marowak",
+    "pokedexNumber": 105
+  },
+  {
+    "alternative": "hitmonlee",
+    "name": "Hitmonlee",
+    "pokedexNumber": 106
+  },
+  {
+    "alternative": "hitmonchan",
+    "name": "Hitmonchan",
+    "pokedexNumber": 107
+  },
+  {
+    "alternative": "lickitung",
+    "name": "Lickitung",
+    "pokedexNumber": 108
+  },
+  {
+    "alternative": "koffing",
+    "name": "Koffing",
+    "pokedexNumber": 109
+  },
+  {
+    "alternative": "weezing",
+    "name": "Weezing",
+    "pokedexNumber": 110
+  },
+  {
+    "alternative": "rhyhorn",
+    "name": "Rhyhorn",
+    "pokedexNumber": 111
+  },
+  {
+    "alternative": "rhydon",
+    "name": "Rhydon",
+    "pokedexNumber": 112
+  },
+  {
+    "alternative": "chansey",
+    "name": "Chansey",
+    "pokedexNumber": 113
+  },
+  {
+    "alternative": "tangela",
+    "name": "Tangela",
+    "pokedexNumber": 114
+  },
+  {
+    "alternative": "kangaskhan",
+    "name": "Kangaskhan",
+    "pokedexNumber": 115
+  },
+  {
+    "alternative": "horsea",
+    "name": "Horsea",
+    "pokedexNumber": 116
+  },
+  {
+    "alternative": "seadra",
+    "name": "Seadra",
+    "pokedexNumber": 117
+  },
+  {
+    "alternative": "goldeen",
+    "name": "Goldeen",
+    "pokedexNumber": 118
+  },
+  {
+    "alternative": "seaking",
+    "name": "Seaking",
+    "pokedexNumber": 119
+  },
+  {
+    "alternative": "staryu",
+    "name": "Staryu",
+    "pokedexNumber": 120
+  },
+  {
+    "alternative": "starmie",
+    "name": "Starmie",
+    "pokedexNumber": 121
+  },
+  {
+    "alternative": "mr mime",
+    "name": "Mr. Mime",
+    "pokedexNumber": 122
+  },
+  {
+    "alternative": "scyther",
+    "name": "Scyther",
+    "pokedexNumber": 123
+  },
+  {
+    "alternative": "jynx",
+    "name": "Jynx",
+    "pokedexNumber": 124
+  },
+  {
+    "alternative": "electabuzz",
+    "name": "Electabuzz",
+    "pokedexNumber": 125
+  },
+  {
+    "alternative": "magmar",
+    "name": "Magmar",
+    "pokedexNumber": 126
+  },
+  {
+    "alternative": "pinsir",
+    "name": "Pinsir",
+    "pokedexNumber": 127
+  },
+  {
+    "alternative": "tauros",
+    "name": "Tauros",
+    "pokedexNumber": 128
+  },
+  {
+    "alternative": "magikarp",
+    "name": "Magikarp",
+    "pokedexNumber": 129
+  },
+  {
+    "alternative": "gyarados",
+    "name": "Gyarados",
+    "pokedexNumber": 130
+  },
+  {
+    "alternative": "lapras",
+    "name": "Lapras",
+    "pokedexNumber": 131
+  },
+  {
+    "alternative": "ditto",
+    "name": "Ditto",
+    "pokedexNumber": 132
+  },
+  {
+    "alternative": "eevee",
+    "name": "Eevee",
+    "pokedexNumber": 133
+  },
+  {
+    "alternative": "vaporeon",
+    "name": "Vaporeon",
+    "pokedexNumber": 134
+  },
+  {
+    "alternative": "jolteon",
+    "name": "Jolteon",
+    "pokedexNumber": 135
+  },
+  {
+    "alternative": "flareon",
+    "name": "Flareon",
+    "pokedexNumber": 136
+  },
+  {
+    "alternative": "porygon",
+    "name": "Porygon",
+    "pokedexNumber": 137
+  },
+  {
+    "alternative": "omanyte",
+    "name": "Omanyte",
+    "pokedexNumber": 138
+  },
+  {
+    "alternative": "omastar",
+    "name": "Omastar",
+    "pokedexNumber": 139
+  },
+  {
+    "alternative": "kabuto",
+    "name": "Kabuto",
+    "pokedexNumber": 140
+  },
+  {
+    "alternative": "kabutops",
+    "name": "Kabutops",
+    "pokedexNumber": 141
+  },
+  {
+    "alternative": "aerodactyl",
+    "name": "Aerodactyl",
+    "pokedexNumber": 142
+  },
+  {
+    "alternative": "snorlax",
+    "name": "Snorlax",
+    "pokedexNumber": 143
+  },
+  {
+    "alternative": "articuno",
+    "name": "Articuno",
+    "pokedexNumber": 144
+  },
+  {
+    "alternative": "zapdos",
+    "name": "Zapdos",
+    "pokedexNumber": 145
+  },
+  {
+    "alternative": "moltres",
+    "name": "Moltres",
+    "pokedexNumber": 146
+  },
+  {
+    "alternative": "dratini",
+    "name": "Dratini",
+    "pokedexNumber": 147
+  },
+  {
+    "alternative": "dragonair",
+    "name": "Dragonair",
+    "pokedexNumber": 148
+  },
+  {
+    "alternative": "dragonite",
+    "name": "Dragonite",
+    "pokedexNumber": 149
+  },
+  {
+    "alternative": "mewtwo",
+    "name": "Mewtwo",
+    "pokedexNumber": 150
+  },
+  {
+    "alternative": "mew",
+    "name": "Mew",
+    "pokedexNumber": 151
+  }
+]
