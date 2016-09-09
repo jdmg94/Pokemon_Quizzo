@@ -63,17 +63,23 @@ public class quizzo extends AppCompatActivity {
         final ArrayAdapter adapter = new ArrayAdapter<String>(quizzo.this,android.R.layout.simple_list_item_1,this.correctPokemons);
 
         lstPokemonEntries.setAdapter(adapter);
+        this.getPokedex();
 
         txtEntry.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 boolean result = false;
                 int index = -1;
-                System.out.println("algo paso");
                 if(actionId == EditorInfo.IME_ACTION_SEND){
                     if((index = pokemonExists(txtEntry.getText().toString())) != -1){
                         correctPokemons.add(pokedex.remove(index).getName());
                         adapter.notifyDataSetChanged();
+                        lstPokemonEntries.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                lstPokemonEntries.setSelection(lstPokemonEntries.getCount()-1);
+                            }
+                        });
                         addMillisToCounter();
                         txtEntry.setText("");
                         txtEntry.setTextColor(Color.BLACK);
@@ -125,13 +131,16 @@ public class quizzo extends AppCompatActivity {
         timer.start();
     }
 
-    private int pokemonExists(String pokeName){
-        int result = -1;
-        int cont = 0;
+    private void getPokedex(){
         if(this.pokedex == null) {
             this.pokedex = parser.getPokedex(Regions.KANTO, getAssets());
             this.pokedexTotal = this.pokedex.size();
         }
+    }
+
+    private int pokemonExists(String pokeName){
+        int result = -1;
+        int cont = 0;
 
        for(pokeInfo tmp: this.pokedex){
            cont++;
