@@ -38,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnOtherRegions.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent openRegions = new Intent(MainActivity.this,regionsActivity.class);
+                startActivity(openRegions);
+            }
+        });
+
 
     }
 }

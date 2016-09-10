@@ -12,6 +12,7 @@ public class pokeInfo implements Serializable{
     private int pokedexNumber;
     private String name;
     private String alternative;
+    private String image;
 
     public int getPokedexNumber() {
         return pokedexNumber;
@@ -19,11 +20,9 @@ public class pokeInfo implements Serializable{
 
     public void setPokedexNumber(int pokedexNumber) {
         this.pokedexNumber = pokedexNumber;
-
     }
 
     public String getName() {
-
         return name;
     }
 
@@ -37,5 +36,13 @@ public class pokeInfo implements Serializable{
 
     public void setAlternative(String alternative) {
         this.alternative = alternative;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }

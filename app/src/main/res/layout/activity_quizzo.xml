@@ -27,7 +27,7 @@
         android:id="@+id/txtEntry"
         android:imeOptions="actionSend"
         android:maxLines="1"
-        android:inputType="text"
+        android:inputType="text|textNoSuggestions"
         android:layout_alignParentBottom="true" />
 
 </RelativeLayout>

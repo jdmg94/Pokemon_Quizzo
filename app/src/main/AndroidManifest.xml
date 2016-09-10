@@ -8,13 +8,15 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".co.source.controllers.MainActivity" >
+        <activity android:name=".co.source.controllers.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".co.source.controllers.quizzo"></activity>
+        <activity android:name=".co.source.controllers.quizzo" />
+        <activity android:name=".co.source.controllers.regionsActivity"></activity>
     </application>
 
 </manifest>

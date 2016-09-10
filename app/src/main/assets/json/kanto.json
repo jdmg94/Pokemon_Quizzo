@@ -1,755 +1,906 @@
 [
   {
+    "image": "img/kanto/bulbasaur.png",
     "alternative": "bulbasaur",
     "name": "Bulbasaur",
     "pokedexNumber": 1
   },
   {
+    "image": "img/kanto/ivysaur.png",
     "alternative": "ivysaur",
     "name": "Ivysaur",
     "pokedexNumber": 2
   },
   {
+    "image": "img/kanto/venusaur.png",
     "alternative": "venusaur",
     "name": "Venusaur",
     "pokedexNumber": 3
   },
   {
+    "image": "img/kanto/charmander.png",
     "alternative": "charmander",
     "name": "Charmander",
     "pokedexNumber": 4
   },
   {
+    "image": "img/kanto/charmeleon.png",
     "alternative": "charmeleon",
     "name": "Charmeleon",
     "pokedexNumber": 5
   },
   {
+    "image": "img/kanto/charizard.png",
     "alternative": "charizard",
     "name": "Charizard",
     "pokedexNumber": 6
   },
   {
+    "image": "img/kanto/squirtle.png",
     "alternative": "squirtle",
     "name": "Squirtle",
     "pokedexNumber": 7
   },
   {
+    "image": "img/kanto/wartortle.png",
     "alternative": "wartortle",
     "name": "Wartortle",
     "pokedexNumber": 8
   },
   {
+    "image": "img/kanto/blastoise.png",
     "alternative": "blastoise",
     "name": "Blastoise",
     "pokedexNumber": 9
   },
   {
+    "image": "img/kanto/caterpie.png",
     "alternative": "caterpie",
     "name": "Caterpie",
     "pokedexNumber": 10
   },
   {
+    "image": "img/kanto/metapod.png",
     "alternative": "metapod",
     "name": "Metapod",
     "pokedexNumber": 11
   },
   {
+    "image": "img/kanto/butterfree.png",
     "alternative": "butterfree",
     "name": "Butterfree",
     "pokedexNumber": 12
   },
   {
+    "image": "img/kanto/weedle.png",
     "alternative": "weedle",
     "name": "Weedle",
     "pokedexNumber": 13
   },
   {
+    "image": "img/kanto/kakuna.png",
     "alternative": "kakuna",
     "name": "Kakuna",
     "pokedexNumber": 14
   },
   {
+    "image": "img/kanto/beedrill.png",
     "alternative": "beedrill",
     "name": "Beedrill",
     "pokedexNumber": 15
   },
   {
+    "image": "img/kanto/pidgey.png",
     "alternative": "pidgey",
     "name": "Pidgey",
     "pokedexNumber": 16
   },
   {
+    "image": "img/kanto/pidgeotto.png",
     "alternative": "pidgeotto",
     "name": "Pidgeotto",
     "pokedexNumber": 17
   },
   {
+    "image": "img/kanto/pidgeot.png",
     "alternative": "pidgeot",
     "name": "Pidgeot",
     "pokedexNumber": 18
   },
   {
+    "image": "img/kanto/rattata.png",
     "alternative": "rattata",
     "name": "Rattata",
     "pokedexNumber": 19
   },
   {
+    "image": "img/kanto/raticate.png",
     "alternative": "raticate",
     "name": "Raticate",
     "pokedexNumber": 20
   },
   {
+    "image": "img/kanto/spearow.png",
     "alternative": "spearow",
     "name": "Spearow",
     "pokedexNumber": 21
   },
   {
+    "image": "img/kanto/fearow.png",
     "alternative": "fearow",
     "name": "Fearow",
     "pokedexNumber": 22
   },
   {
+    "image": "img/kanto/ekans.png",
     "alternative": "ekans",
     "name": "Ekans",
     "pokedexNumber": 23
   },
   {
+    "image": "img/kanto/arbok.png",
     "alternative": "arbok",
     "name": "Arbok",
     "pokedexNumber": 24
   },
   {
+    "image": "img/kanto/pikachu.png",
     "alternative": "pikachu",
     "name": "Pikachu",
     "pokedexNumber": 25
   },
   {
+    "image": "img/kanto/raichu.png",
     "alternative": "raichu",
     "name": "Raichu",
     "pokedexNumber": 26
   },
   {
+    "image": "img/kanto/sandshrew.png",
     "alternative": "sandshrew",
     "name": "Sandshrew",
     "pokedexNumber": 27
   },
   {
+    "image": "img/kanto/sandslash.png",
     "alternative": "sandslash",
     "name": "Sandslash",
     "pokedexNumber": 28
   },
   {
+    "image": "img/kanto/nidoranf.png",
     "alternative": "nidoran",
     "name": "Nidoran♀",
     "pokedexNumber": 29
   },
   {
+    "image": "img/kanto/nidorina.png",
     "alternative": "nidorina",
     "name": "Nidorina",
     "pokedexNumber": 30
   },
   {
+    "image": "img/kanto/nidoqueen.png",
     "alternative": "nidoqueen",
     "name": "Nidoqueen",
     "pokedexNumber": 31
   },
   {
+    "image": "img/kanto/nidoranm.png",
     "alternative": "nidoran",
     "name": "Nidoran♂",
     "pokedexNumber": 32
   },
   {
+    "image": "img/kanto/nidorino.png",
     "alternative": "nidorino",
     "name": "Nidorino",
     "pokedexNumber": 33
   },
   {
+    "image": "img/kanto/nidoking.png",
     "alternative": "nidoking",
     "name": "Nidoking",
     "pokedexNumber": 34
   },
   {
+    "image": "img/kanto/clefairy.png",
     "alternative": "clefairy",
     "name": "Clefairy",
     "pokedexNumber": 35
   },
   {
+    "image": "img/kanto/clefable.png",
     "alternative": "clefable",
     "name": "Clefable",
     "pokedexNumber": 36
   },
   {
+    "image": "img/kanto/vulpix.png",
     "alternative": "vulpix",
     "name": "Vulpix",
     "pokedexNumber": 37
   },
   {
+    "image": "img/kanto/ninetales.png",
     "alternative": "ninetales",
     "name": "Ninetales",
     "pokedexNumber": 38
   },
   {
+    "image": "img/kanto/jigglypuff.png",
     "alternative": "jigglypuff",
     "name": "Jigglypuff",
     "pokedexNumber": 39
   },
   {
+    "image": "img/kanto/wigglytuff.png",
     "alternative": "wigglytuff",
     "name": "Wigglytuff",
     "pokedexNumber": 40
   },
   {
+    "image": "img/kanto/zubat.png",
     "alternative": "zubat",
     "name": "Zubat",
     "pokedexNumber": 41
   },
   {
+    "image": "img/kanto/golbat.png",
     "alternative": "golbat",
     "name": "Golbat",
     "pokedexNumber": 42
   },
   {
+    "image": "img/kanto/oddish.png",
     "alternative": "oddish",
     "name": "Oddish",
     "pokedexNumber": 43
   },
   {
+    "image": "img/kanto/gloom.png",
     "alternative": "gloom",
     "name": "Gloom",
     "pokedexNumber": 44
   },
   {
+    "image": "img/kanto/vileplume.png",
     "alternative": "vileplume",
     "name": "Vileplume",
     "pokedexNumber": 45
   },
   {
+    "image": "img/kanto/paras.png",
     "alternative": "paras",
     "name": "Paras",
     "pokedexNumber": 46
   },
   {
+    "image": "img/kanto/parasect.png",
     "alternative": "parasect",
     "name": "Parasect",
     "pokedexNumber": 47
   },
   {
+    "image": "img/kanto/venonat.png",
     "alternative": "venonat",
     "name": "Venonat",
     "pokedexNumber": 48
   },
   {
+    "image": "img/kanto/venomoth.png",
     "alternative": "venomoth",
     "name": "Venomoth",
     "pokedexNumber": 49
   },
   {
+    "image": "img/kanto/diglett.png",
     "alternative": "diglett",
     "name": "Diglett",
     "pokedexNumber": 50
   },
   {
+    "image": "img/kanto/dugtrio.png",
     "alternative": "dugtrio",
     "name": "Dugtrio",
     "pokedexNumber": 51
   },
   {
+    "image": "img/kanto/meowth.png",
     "alternative": "meowth",
     "name": "Meowth",
     "pokedexNumber": 52
   },
   {
+    "image": "img/kanto/persian.png",
     "alternative": "persian",
     "name": "Persian",
     "pokedexNumber": 53
   },
   {
+    "image": "img/kanto/psyduck.png",
     "alternative": "psyduck",
     "name": "Psyduck",
     "pokedexNumber": 54
   },
   {
+    "image": "img/kanto/golduck.png",
     "alternative": "golduck",
     "name": "Golduck",
     "pokedexNumber": 55
   },
   {
+    "image": "img/kanto/mankey.png",
     "alternative": "mankey",
     "name": "Mankey",
     "pokedexNumber": 56
   },
   {
+    "image": "img/kanto/primeape.png",
     "alternative": "primeape",
     "name": "Primeape",
     "pokedexNumber": 57
   },
   {
+    "image": "img/kanto/growlithe.png",
     "alternative": "growlithe",
     "name": "Growlithe",
     "pokedexNumber": 58
   },
   {
+    "image": "img/kanto/arcanine.png",
     "alternative": "arcanine",
     "name": "Arcanine",
     "pokedexNumber": 59
   },
   {
+    "image": "img/kanto/poliwag.png",
     "alternative": "poliwag",
     "name": "Poliwag",
     "pokedexNumber": 60
   },
   {
+    "image": "img/kanto/poliwhirl.png",
     "alternative": "poliwhirl",
     "name": "Poliwhirl",
     "pokedexNumber": 61
   },
   {
+    "image": "img/kanto/poliwrath.png",
     "alternative": "poliwrath",
     "name": "Poliwrath",
     "pokedexNumber": 62
   },
   {
+    "image": "img/kanto/abra.png",
     "alternative": "abra",
     "name": "Abra",
     "pokedexNumber": 63
   },
   {
+    "image": "img/kanto/kadabra.png",
     "alternative": "kadabra",
     "name": "Kadabra",
     "pokedexNumber": 64
   },
   {
+    "image": "img/kanto/alakazam.png",
     "alternative": "alakazam",
     "name": "Alakazam",
     "pokedexNumber": 65
   },
   {
+    "image": "img/kanto/machop.png",
     "alternative": "machop",
     "name": "Machop",
     "pokedexNumber": 66
   },
   {
+    "image": "img/kanto/machoke.png",
     "alternative": "machoke",
     "name": "Machoke",
     "pokedexNumber": 67
   },
   {
+    "image": "img/kanto/machamp.png",
     "alternative": "machamp",
     "name": "Machamp",
     "pokedexNumber": 68
   },
   {
+    "image": "img/kanto/bellsprout.png",
     "alternative": "bellsprout",
     "name": "Bellsprout",
     "pokedexNumber": 69
   },
   {
+    "image": "img/kanto/weepinbell.png",
     "alternative": "weepinbell",
     "name": "Weepinbell",
     "pokedexNumber": 70
   },
   {
+    "image": "img/kanto/victreebel.png",
     "alternative": "victreebel",
     "name": "Victreebel",
     "pokedexNumber": 71
   },
   {
+    "image": "img/kanto/tentacool.png",
     "alternative": "tentacool",
     "name": "Tentacool",
     "pokedexNumber": 72
   },
   {
+    "image": "img/kanto/tentacruel.png",
     "alternative": "tentacruel",
     "name": "Tentacruel",
     "pokedexNumber": 73
   },
   {
+    "image": "img/kanto/geodude.png",
     "alternative": "geodude",
     "name": "Geodude",
     "pokedexNumber": 74
   },
   {
+    "image": "img/kanto/graveler.png",
     "alternative": "graveler",
     "name": "Graveler",
     "pokedexNumber": 75
   },
   {
+    "image": "img/kanto/golem.png",
     "alternative": "golem",
     "name": "Golem",
     "pokedexNumber": 76
   },
   {
+    "image": "img/kanto/ponyta.png",
     "alternative": "ponyta",
     "name": "Ponyta",
     "pokedexNumber": 77
   },
   {
+    "image": "img/kanto/rapidash.png",
     "alternative": "rapidash",
     "name": "Rapidash",
     "pokedexNumber": 78
   },
   {
+    "image": "img/kanto/slowpoke.png",
     "alternative": "slowpoke",
     "name": "Slowpoke",
     "pokedexNumber": 79
   },
   {
+    "image": "img/kanto/slowbro.png",
     "alternative": "slowbro",
     "name": "Slowbro",
     "pokedexNumber": 80
   },
   {
+    "image": "img/kanto/magnemite.png",
     "alternative": "magnemite",
     "name": "Magnemite",
     "pokedexNumber": 81
   },
   {
+    "image": "img/kanto/magneton.png",
     "alternative": "magneton",
     "name": "Magneton",
     "pokedexNumber": 82
   },
   {
+    "image": "img/kanto/farfetchd.png",
     "alternative": "farfetchd",
     "name": "Farfetch'd",
     "pokedexNumber": 83
   },
   {
+    "image": "img/kanto/doduo.png",
     "alternative": "doduo",
     "name": "Doduo",
     "pokedexNumber": 84
   },
   {
+    "image": "img/kanto/dodrio.png",
     "alternative": "dodrio",
     "name": "Dodrio",
     "pokedexNumber": 85
   },
   {
+    "image": "img/kanto/seel.png",
     "alternative": "seel",
     "name": "Seel",
     "pokedexNumber": 86
   },
   {
+    "image": "img/kanto/dewgong.png",
     "alternative": "dewgong",
     "name": "Dewgong",
     "pokedexNumber": 87
   },
   {
+    "image": "img/kanto/grimer.png",
     "alternative": "grimer",
     "name": "Grimer",
     "pokedexNumber": 88
   },
   {
+    "image": "img/kanto/muk.png",
     "alternative": "muk",
     "name": "Muk",
     "pokedexNumber": 89
   },
   {
+    "image": "img/kanto/shellder.png",
     "alternative": "shellder",
     "name": "Shellder",
     "pokedexNumber": 90
   },
   {
+    "image": "img/kanto/cloyster.png",
     "alternative": "cloyster",
     "name": "Cloyster",
     "pokedexNumber": 91
   },
   {
+    "image": "img/kanto/gastly.png",
     "alternative": "gastly",
     "name": "Gastly",
     "pokedexNumber": 92
   },
   {
+    "image": "img/kanto/haunter.png",
     "alternative": "haunter",
     "name": "Haunter",
     "pokedexNumber": 93
   },
   {
+    "image": "img/kanto/gengar.png",
     "alternative": "gengar",
     "name": "Gengar",
     "pokedexNumber": 94
   },
   {
+    "image": "img/kanto/onix.png",
     "alternative": "onix",
     "name": "Onix",
     "pokedexNumber": 95
   },
   {
+    "image": "img/kanto/drowzee.png",
     "alternative": "drowzee",
     "name": "Drowzee",
     "pokedexNumber": 96
   },
   {
+    "image": "img/kanto/hypno.png",
     "alternative": "hypno",
     "name": "Hypno",
     "pokedexNumber": 97
   },
   {
+    "image": "img/kanto/krabby.png",
     "alternative": "krabby",
     "name": "Krabby",
     "pokedexNumber": 98
   },
   {
+    "image": "img/kanto/kingler.png",
     "alternative": "kingler",
     "name": "Kingler",
     "pokedexNumber": 99
   },
   {
+    "image": "img/kanto/voltorb.png",
     "alternative": "voltorb",
     "name": "Voltorb",
     "pokedexNumber": 100
   },
   {
+    "image": "img/kanto/electrode.png",
     "alternative": "electrode",
     "name": "Electrode",
     "pokedexNumber": 101
   },
   {
+    "image": "img/kanto/exeggcute.png",
     "alternative": "exeggcute",
     "name": "Exeggcute",
     "pokedexNumber": 102
   },
   {
+    "image": "img/kanto/exeggutor.png",
     "alternative": "exeggutor",
     "name": "Exeggutor",
     "pokedexNumber": 103
   },
   {
+    "image": "img/kanto/cubone.png",
     "alternative": "cubone",
     "name": "Cubone",
     "pokedexNumber": 104
   },
   {
+    "image": "img/kanto/marowak.png",
     "alternative": "marowak",
     "name": "Marowak",
     "pokedexNumber": 105
   },
   {
+    "image": "img/kanto/hitmonlee.png",
     "alternative": "hitmonlee",
     "name": "Hitmonlee",
     "pokedexNumber": 106
   },
   {
+    "image": "img/kanto/hitmonchan.png",
     "alternative": "hitmonchan",
     "name": "Hitmonchan",
     "pokedexNumber": 107
   },
   {
+    "image": "img/kanto/lickitung.png",
     "alternative": "lickitung",
     "name": "Lickitung",
     "pokedexNumber": 108
   },
   {
+    "image": "img/kanto/koffing.png",
     "alternative": "koffing",
     "name": "Koffing",
     "pokedexNumber": 109
   },
   {
+    "image": "img/kanto/weezing.png",
     "alternative": "weezing",
     "name": "Weezing",
     "pokedexNumber": 110
   },
   {
+    "image": "img/kanto/rhyhorn.png",
     "alternative": "rhyhorn",
     "name": "Rhyhorn",
     "pokedexNumber": 111
   },
   {
+    "image": "img/kanto/rhydon.png",
     "alternative": "rhydon",
     "name": "Rhydon",
     "pokedexNumber": 112
   },
   {
+    "image": "img/kanto/chansey.png",
     "alternative": "chansey",
     "name": "Chansey",
     "pokedexNumber": 113
   },
   {
+    "image": "img/kanto/tangela.png",
     "alternative": "tangela",
     "name": "Tangela",
     "pokedexNumber": 114
   },
   {
+    "image": "img/kanto/kangaskhan.png",
     "alternative": "kangaskhan",
     "name": "Kangaskhan",
     "pokedexNumber": 115
   },
   {
+    "image": "img/kanto/horsea.png",
     "alternative": "horsea",
     "name": "Horsea",
     "pokedexNumber": 116
   },
   {
+    "image": "img/kanto/seadra.png",
     "alternative": "seadra",
     "name": "Seadra",
     "pokedexNumber": 117
   },
   {
+    "image": "img/kanto/goldeen.png",
     "alternative": "goldeen",
     "name": "Goldeen",
     "pokedexNumber": 118
   },
   {
+    "image": "img/kanto/seaking.png",
     "alternative": "seaking",
     "name": "Seaking",
     "pokedexNumber": 119
   },
   {
+    "image": "img/kanto/staryu.png",
     "alternative": "staryu",
     "name": "Staryu",
     "pokedexNumber": 120
   },
   {
+    "image": "img/kanto/starmie.png",
     "alternative": "starmie",
     "name": "Starmie",
     "pokedexNumber": 121
   },
   {
+    "image": "img/kanto/mr mime.png",
     "alternative": "mr mime",
     "name": "Mr. Mime",
     "pokedexNumber": 122
   },
   {
+    "image": "img/kanto/scyther.png",
     "alternative": "scyther",
     "name": "Scyther",
     "pokedexNumber": 123
   },
   {
+    "image": "img/kanto/jynx.png",
     "alternative": "jynx",
     "name": "Jynx",
     "pokedexNumber": 124
   },
   {
+    "image": "img/kanto/electabuzz.png",
     "alternative": "electabuzz",
     "name": "Electabuzz",
     "pokedexNumber": 125
   },
   {
+    "image": "img/kanto/magmar.png",
     "alternative": "magmar",
     "name": "Magmar",
     "pokedexNumber": 126
   },
   {
+    "image": "img/kanto/pinsir.png",
     "alternative": "pinsir",
     "name": "Pinsir",
     "pokedexNumber": 127
   },
   {
+    "image": "img/kanto/tauros.png",
     "alternative": "tauros",
     "name": "Tauros",
     "pokedexNumber": 128
   },
   {
+    "image": "img/kanto/magikarp.png",
     "alternative": "magikarp",
     "name": "Magikarp",
     "pokedexNumber": 129
   },
   {
+    "image": "img/kanto/gyarados.png",
     "alternative": "gyarados",
     "name": "Gyarados",
     "pokedexNumber": 130
   },
   {
+    "image": "img/kanto/lapras.png",
     "alternative": "lapras",
     "name": "Lapras",
     "pokedexNumber": 131
   },
   {
+    "image": "img/kanto/ditto.png",
     "alternative": "ditto",
     "name": "Ditto",
     "pokedexNumber": 132
   },
   {
+    "image": "img/kanto/eevee.png",
     "alternative": "eevee",
     "name": "Eevee",
     "pokedexNumber": 133
   },
   {
+    "image": "img/kanto/vaporeon.png",
     "alternative": "vaporeon",
     "name": "Vaporeon",
     "pokedexNumber": 134
   },
   {
+    "image": "img/kanto/jolteon.png",
     "alternative": "jolteon",
     "name": "Jolteon",
     "pokedexNumber": 135
   },
   {
+    "image": "img/kanto/flareon.png",
     "alternative": "flareon",
     "name": "Flareon",
     "pokedexNumber": 136
   },
   {
+    "image": "img/kanto/porygon.png",
     "alternative": "porygon",
     "name": "Porygon",
     "pokedexNumber": 137
   },
   {
+    "image": "img/kanto/omanyte.png",
     "alternative": "omanyte",
     "name": "Omanyte",
     "pokedexNumber": 138
   },
   {
+    "image": "img/kanto/omastar.png",
     "alternative": "omastar",
     "name": "Omastar",
     "pokedexNumber": 139
   },
   {
+    "image": "img/kanto/kabuto.png",
     "alternative": "kabuto",
     "name": "Kabuto",
     "pokedexNumber": 140
   },
   {
+    "image": "img/kanto/kabutops.png",
     "alternative": "kabutops",
     "name": "Kabutops",
     "pokedexNumber": 141
   },
   {
+    "image": "img/kanto/aerodactyl.png",
     "alternative": "aerodactyl",
     "name": "Aerodactyl",
     "pokedexNumber": 142
   },
   {
+    "image": "img/kanto/snorlax.png",
     "alternative": "snorlax",
     "name": "Snorlax",
     "pokedexNumber": 143
   },
   {
+    "image": "img/kanto/articuno.png",
     "alternative": "articuno",
     "name": "Articuno",
     "pokedexNumber": 144
   },
   {
+    "image": "img/kanto/zapdos.png",
     "alternative": "zapdos",
     "name": "Zapdos",
     "pokedexNumber": 145
   },
   {
+    "image": "img/kanto/moltres.png",
     "alternative": "moltres",
     "name": "Moltres",
     "pokedexNumber": 146
   },
   {
+    "image": "img/kanto/dratini.png",
     "alternative": "dratini",
     "name": "Dratini",
     "pokedexNumber": 147
   },
   {
+    "image": "img/kanto/dragonair.png",
     "alternative": "dragonair",
     "name": "Dragonair",
     "pokedexNumber": 148
   },
   {
+    "image": "img/kanto/dragonite.png",
     "alternative": "dragonite",
     "name": "Dragonite",
     "pokedexNumber": 149
   },
   {
+    "image": "img/kanto/mewtwo.png",
     "alternative": "mewtwo",
     "name": "Mewtwo",
     "pokedexNumber": 150
   },
   {
+    "image": "img/kanto/mew.png",
     "alternative": "mew",
     "name": "Mew",
     "pokedexNumber": 151

@@ -4,12 +4,12 @@ package co.superiortech.pokemonquizzo.co.source.enums;
  * Created by josemunoz on 9/8/16.
  */
 public enum Regions {
-    KANTO("json/kanto.json"),
-    JOHTO("json/johto.json"),
-    HOENN("json/hoenn.json"),
-    SINNOH("json/sinnoh.json"),
-    UNOVA("json/unova.json"),
-    KALOS("json/kalos.json");
+    KANTO("kanto"),
+    JOHTO("johto"),
+    HOENN("hoenn"),
+    SINNOH("sinnoh"),
+    UNOVA("unova"),
+    KALOS("kalos");
 
     private final String file;
 
@@ -18,6 +18,10 @@ public enum Regions {
     }
 
     public String getFile(){
-        return this.file;
+        return "json/"+this.file+".json";
+    }
+
+    public String getImage(){
+        return "images/"+this.file+".png";
     }
 }
