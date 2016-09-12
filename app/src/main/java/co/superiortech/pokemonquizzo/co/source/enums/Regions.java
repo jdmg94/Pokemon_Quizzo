@@ -24,4 +24,8 @@ public enum Regions {
     public String getImage(){
         return "images/"+this.file+".png";
     }
+
+    public String getName(){
+        return this.file;
+    }
 }

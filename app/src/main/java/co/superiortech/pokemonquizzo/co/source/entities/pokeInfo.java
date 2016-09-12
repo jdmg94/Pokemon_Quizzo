@@ -2,6 +2,8 @@ package co.superiortech.pokemonquizzo.co.source.entities;
 
 import java.io.Serializable;
 
+import co.superiortech.pokemonquizzo.co.source.enums.Type;
+
 /**
  * Created by josemunoz on 9/7/16.
  */
@@ -13,6 +15,7 @@ public class pokeInfo implements Serializable{
     private String name;
     private String alternative;
     private String image;
+    private Type[] types;
 
     public int getPokedexNumber() {
         return pokedexNumber;
@@ -44,5 +47,13 @@ public class pokeInfo implements Serializable{
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public Type[] getTypes() {
+        return types;
+    }
+
+    public void setTypes(Type[] types) {
+        this.types = types;
     }
 }

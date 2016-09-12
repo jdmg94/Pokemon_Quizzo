@@ -5,21 +5,5 @@
     <color name="colorAccent">#da4167</color>
     <color name="colorSecondary">#d4cbb3</color>
     <color  name="colorTerciary">#f4d35e</color>
-    <!-- pokemon type colors -->
-    <color name="fireType">#ff1744</color>
-    <color name="waterType">#2196f3</color>
-    <color name="grassType">#4caf50</color>
-    <color name="poisonType">#ba68c8</color>
-    <color name="normalType">#f9a825</color>
-    <color name="electricType">#ffd740</color>
-    <color name="fightingType">#e57373</color>
-    <color name="groundType">#a1887f</color>
-    <color name="bugType">#9ccc65</color>
-    <color name="psychicType">#9575cd</color>
-    <color name="rockType">#757575</color>
-    <color name="steelType">#d7ccc8</color>
-    <color name="flyingType">#80deea</color>
-    <color name="fairyType">#ea80fc</color>
-    <color name="iceType">#18ffff</color>
-    <color name="ghostType">#9c27b0</color>
+
 </resources>

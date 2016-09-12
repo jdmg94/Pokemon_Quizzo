@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,12 +42,15 @@ public class CardItemAdapter extends ArrayAdapter{
             LayoutInflater inflater = ((Activity)this.context).getLayoutInflater();
             convertView = inflater.inflate(this.resourceId,parent,false);
         }
-
+        CardView card = (CardView) convertView.findViewById(R.id.cardObject);
         ImageView cardImage = (ImageView) convertView.findViewById(R.id.cardImage);
         TextView cardTitle = (TextView) convertView.findViewById(R.id.cardTitle);
-        String pokeName = this.data.get(position).getName();
+        pokeInfo pokemon = this.data.get(position);
+        String pokeName = pokemon.getName();
+
+        card.setCardBackgroundColor(Color.parseColor(pokemon.getTypes()[0].getValue()));
         cardTitle.setText(pokeName);
-        cardImage.setImageBitmap(getPokemonImage(this.data.get(position)));
+        cardImage.setImageBitmap(getPokemonImage(pokemon));
 
         return convertView;
     }
@@ -53,7 +58,7 @@ public class CardItemAdapter extends ArrayAdapter{
     private Bitmap getPokemonImage(pokeInfo item) {
         Bitmap resource = null;
         try {
-            resource = BitmapFactory.decodeStream(((Activity) this.context).getAssets().open(item.getImage()));
+            resource = BitmapFactory.decodeStream((this.context).getAssets().open(item.getImage()));
         }catch(IOException ex){
             System.out.println("not found! "+ex.getMessage());
         }

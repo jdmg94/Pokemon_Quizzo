@@ -1,602 +1,1056 @@
 [
   {
-    "pokedexNumber": 152,
     "name": "Chikorita",
+    "types": [
+      "grass"
+    ],
+    "pokedexNumber": 152,
     "image": "img/johto/chikorita.png",
-    "alternative": "chikorita"
+    "alternative": "chikorita",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 153,
     "name": "Bayleef",
+    "types": [
+      "grass"
+    ],
+    "pokedexNumber": 153,
     "image": "img/johto/bayleef.png",
-    "alternative": "bayleef"
+    "alternative": "bayleef",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 154,
     "name": "Meganium",
+    "types": [
+      "grass"      
+    ],
+    "pokedexNumber": 154,
     "image": "img/johto/meganium.png",
-    "alternative": "meganium"
+    "alternative": "meganium",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 155,
     "name": "Cyndaquil",
+    "types": [
+      "fire"
+    ],
+    "pokedexNumber": 155,
     "image": "img/johto/cyndaquil.png",
-    "alternative": "cyndaquil"
+    "alternative": "cyndaquil",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 156,
     "name": "Quilava",
+    "types": [
+      "fire"
+    ],
+    "pokedexNumber": 156,
     "image": "img/johto/quilava.png",
-    "alternative": "quilava"
+    "alternative":
+     "quilava",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 157,
     "name": "Typhlosion",
+    "types": [
+      "fire"
+    ],
+    "pokedexNumber": 157,
     "image": "img/johto/typhlosion.png",
-    "alternative": "typhlosion"
+    "alternative": "typhlosion",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 158,
     "name": "Totodile",
+    "types": [
+      "water"
+    ],
+    "pokedexNumber": 158,
     "image": "img/johto/totodile.png",
-    "alternative": "totodile"
+    "alternative": "totodile",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 159,
     "name": "Croconaw",
+    "types": [
+      "water"
+    ],
+    "pokedexNumber": 159,
     "image": "img/johto/croconaw.png",
-    "alternative": "croconaw"
+    "alternative": "croconaw",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 160,
     "name": "Feraligatr",
+    "types": [
+      "water"
+    ],
+    "pokedexNumber": 160,
     "image": "img/johto/feraligatr.png",
-    "alternative": "feraligatr"
+    "alternative": "feraligatr",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 161,
     "name": "Sentret",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 161,
     "image": "img/johto/sentret.png",
-    "alternative": "sentret"
+    "alternative": "sentret",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 162,
     "name": "Furret",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 162,
     "image": "img/johto/furret.png",
-    "alternative": "furret"
+    "alternative": "furret",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 163,
     "name": "Hoothoot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "pokedexNumber": 163,
     "image": "img/johto/hoothoot.png",
-    "alternative": "hoothoot"
+    "alternative": "hoothoot",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 164,
     "name": "Noctowl",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "pokedexNumber": 164,
     "image": "img/johto/noctowl.png",
-    "alternative": "noctowl"
+    "alternative": "noctowl",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 165,
     "name": "Ledyba",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "pokedexNumber": 165,
     "image": "img/johto/ledyba.png",
-    "alternative": "ledyba"
+    "alternative": "ledyba",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 166,
     "name": "Ledian",
+    "types":
+     [
+      "bug",
+      "flying"
+    ],
+    "pokedexNumber": 166,
     "image": "img/johto/ledian.png",
-    "alternative": "ledian"
+    "alternative": "ledian",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 167,
     "name": "Spinarak",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "pokedexNumber": 167,
     "image": "img/johto/spinarak.png",
-    "alternative": "spinarak"
+    "alternative": "spinarak",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 168,
     "name": "Ariados",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "pokedexNumber": 168,
     "image": "img/johto/ariados.png",
-    "alternative": "ariados"
+    "alternative": "ariados",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 169,
     "name": "Crobat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "pokedexNumber": 169,
     "image": "img/johto/crobat.png",
-    "alternative": "crobat"
+    "alternative": "crobat",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 170,
     "name": "Chinchou",
+    "types": [
+      "water",
+      "electric"
+    ],
+    "pokedexNumber": 170,
     "image": "img/johto/chinchou.png",
-    "alternative": "chinchou"
+    "alternative": "chinchou",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 171,
     "name": "Lanturn",
+    "types": [
+      "water",
+      "electric"
+    ],
+    "pokedexNumber": 171,
     "image": "img/johto/lanturn.png",
-    "alternative": "lanturn"
+    "alternative": "lanturn",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 172,
     "name": "Pichu",
+    "types": [
+      "electric"
+    ],
+    "pokedexNumber": 172,
     "image": "img/johto/pichu.png",
-    "alternative": "pichu"
+    "alternative": "pichu",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 173,
     "name": "Cleffa",
+    "types": [
+      "fairy"
+    ],
+    "pokedexNumber": 173,
     "image": "img/johto/cleffa.png",
-    "alternative": "cleffa"
+    "alternative": "cleffa",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 174,
     "name": "Igglybuff",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "pokedexNumber": 174,
     "image": "img/johto/igglybuff.png",
-    "alternative": "igglybuff"
+    "alternative": "igglybuff",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 175,
     "name": "Togepi",
+    "types": [
+      "fairy"
+    ],
+    "pokedexNumber": 175,
     "image": "img/johto/togepi.png",
-    "alternative": "togepi"
+    "alternative": "togepi",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 176,
     "name": "Togetic",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "pokedexNumber": 176,
     "image": "img/johto/togetic.png",
-    "alternative": "togetic"
+    "alternative": "togetic",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 177,
     "name": "Natu",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "pokedexNumber": 177,
     "image": "img/johto/natu.png",
-    "alternative": "natu"
+    "alternative": "natu",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 178,
     "name": "Xatu",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "pokedexNumber": 178,
     "image": "img/johto/xatu.png",
-    "alternative": "xatu"
+    "alternative": "xatu",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 179,
     "name": "Mareep",
+    "types": [
+      "electric"
+    ],
+    "pokedexNumber": 179,
     "image": "img/johto/mareep.png",
-    "alternative": "mareep"
+    "alternative": "mareep",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 180,
     "name": "Flaaffy",
+    "types": [
+      "electric"
+    ],
+    "pokedexNumber": 180,
     "image": "img/johto/flaaffy.png",
-    "alternative": "flaaffy"
+    "alternative": "flaaffy",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 181,
     "name": "Ampharos",
+    "types": [
+      "electric"
+    ],
+    "pokedexNumber": 181,
     "image": "img/johto/ampharos.png",
-    "alternative": "ampharos"
+    "alternative": "ampharos",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 182,
     "name": "Bellossom",
+    "types": [
+      "grass"
+    ],
+    "pokedexNumber": 182,
     "image": "img/johto/bellossom.png",
-    "alternative": "bellossom"
+    "alternative": "bellossom",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 183,
     "name": "Marill",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "pokedexNumber": 183,
     "image": "img/johto/marill.png",
-    "alternative": "marill"
+    "alternative": "marill",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 184,
     "name": "Azumarill",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "pokedexNumber": 184,
     "image": "img/johto/azumarill.png",
-    "alternative": "azumarill"
+    "alternative": "azumarill",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 185,
     "name": "Sudowoodo",
+    "types": [
+      "rock"
+    ],
+    "pokedexNumber": 185,
     "image": "img/johto/sudowoodo.png",
-    "alternative": "sudowoodo"
+    "alternative": "sudowoodo",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 186,
     "name": "Politoed",
+    "types": [
+      "water"
+    ],
+    "pokedexNumber": 186,
     "image": "img/johto/politoed.png",
-    "alternative": "politoed"
+    "alternative": "politoed",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 187,
     "name": "Hoppip",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "pokedexNumber": 187,
     "image": "img/johto/hoppip.png",
-    "alternative": "hoppip"
+    "alternative": "hoppip",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 188,
     "name": "Skiploom",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "pokedexNumber": 188,
     "image": "img/johto/skiploom.png",
-    "alternative": "skiploom"
+    "alternative": "skiploom",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 189,
     "name": "Jumpluff",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "pokedexNumber": 189,
     "image": "img/johto/jumpluff.png",
-    "alternative": "jumpluff"
+    "alternative": "jumpluff",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 190,
     "name": "Aipom",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 190,
     "image": "img/johto/aipom.png",
-    "alternative": "aipom"
+    "alternative": "aipom",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 191,
     "name": "Sunkern",
+    "types": [
+      "grass"
+    ],
+    "pokedexNumber": 191,
     "image": "img/johto/sunkern.png",
-    "alternative": "sunkern"
+    "alternative": "sunkern",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 192,
     "name": "Sunflora",
+    "types": [
+      "grass"
+    ],
+    "pokedexNumber": 192,
     "image": "img/johto/sunflora.png",
-    "alternative": "sunflora"
+    "alternative": "sunflora",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 193,
     "name": "Yanma",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "pokedexNumber": 193,
     "image": "img/johto/yanma.png",
-    "alternative": "yanma"
+    "alternative": "yanma",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 194,
     "name": "Wooper",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "pokedexNumber": 194,
     "image": "img/johto/wooper.png",
-    "alternative": "wooper"
+    "alternative": "wooper",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 195,
     "name": "Quagsire",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "pokedexNumber": 195,
     "image": "img/johto/quagsire.png",
-    "alternative": "quagsire"
+    "alternative": "quagsire",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 196,
     "name": "Espeon",
+    "types": 
+    [
+      "psychic"
+    ],
+    "pokedexNumber": 196,
     "image": "img/johto/espeon.png",
-    "alternative": "espeon"
+    "alternative": "espeon",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 197,
     "name": "Umbreon",
+    "types": [
+      "dark"
+    ],
+    "pokedexNumber": 197,
     "image": "img/johto/umbreon.png",
-    "alternative": "umbreon"
+    "alternative": "umbreon",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 198,
     "name": "Murkrow",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "pokedexNumber": 198,
     "image": "img/johto/murkrow.png",
-    "alternative": "murkrow"
+    "alternative": "murkrow",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 199,
     "name": "Slowking",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "pokedexNumber": 199,
     "image": "img/johto/slowking.png",
-    "alternative": "slowking"
+    "alternative": "slowking",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 200,
     "name": "Misdreavus",
+    "types": [
+      "ghost"
+    ],
+    "pokedexNumber": 200,
     "image": "img/johto/misdreavus.png",
-    "alternative": "misdreavus"
+    "alternative": "misdreavus",  
+    "region": "johto"
   },
   {
-    "pokedexNumber": 201,
     "name": "Unown",
+    "types": [
+      "psychic"
+    ],
+    "pokedexNumber": 201,
     "image": "img/johto/unown.png",
-    "alternative": "unown"
+    "alternative": "unown",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 202,
     "name": "Wobbuffet",
+    "types": [
+      "psychic"
+    ],
+    "pokedexNumber": 202,
     "image": "img/johto/wobbuffet.png",
-    "alternative": "wobbuffet"
+    "alternative": "wobbuffet",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 203,
     "name": "Girafarig",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "pokedexNumber": 203,
     "image": "img/johto/girafarig.png",
-    "alternative": "girafarig"
+    "alternative": "girafarig",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 204,
     "name": "Pineco",
+    "types": [
+      "bug"
+    ],
+    "pokedexNumber": 204,
     "image": "img/johto/pineco.png",
-    "alternative": "pineco"
+    "alternative": "pineco",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 205,
     "name": "Forretress",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "pokedexNumber": 205,
     "image": "img/johto/forretress.png",
-    "alternative": "forretress"
+    "alternative": "forretress",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 206,
     "name": "Dunsparce",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 206,
     "image": "img/johto/dunsparce.png",
-    "alternative": "dunsparce"
+    "alternative": "dunsparce",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 207,
     "name": "Gligar",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "pokedexNumber": 207,
     "image": "img/johto/gligar.png",
-    "alternative": "gligar"
+    "alternative": "gligar",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 208,
     "name": "Steelix",
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "pokedexNumber": 208,
     "image": "img/johto/steelix.png",
-    "alternative": "steelix"
+    "alternative": "steelix",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 209,
     "name": "Snubbull",
+    "types": [
+      "fairy"
+    ],
+    "pokedexNumber": 209,
     "image": "img/johto/snubbull.png",
-    "alternative": "snubbull"
+    "alternative": "snubbull",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 210,
     "name": "Granbull",
+    "types": [
+      "fairy"
+    ],
+    "pokedexNumber": 210,
     "image": "img/johto/granbull.png",
-    "alternative": "granbull"
+    "alternative": "granbull",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 211,
     "name": "Qwilfish",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "pokedexNumber": 211,
     "image": "img/johto/qwilfish.png",
-    "alternative": "qwilfish"
+    "alternative": "qwilfish",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 212,
     "name": "Scizor",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "pokedexNumber": 212,
     "image": "img/johto/scizor.png",
-    "alternative": "scizor"
+    "alternative": "scizor",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 213,
     "name": "Shuckle",
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "pokedexNumber": 213,
     "image": "img/johto/shuckle.png",
-    "alternative": "shuckle"
+    "alternative": "shuckle",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 214,
     "name": "Heracross",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "pokedexNumber": 214,
     "image": "img/johto/heracross.png",
-    "alternative": "heracross"
+    "alternative": "heracross",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 215,
     "name": "Sneasel",
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "pokedexNumber": 215,
     "image": "img/johto/sneasel.png",
-    "alternative": "sneasel"
+    "alternative": "sneasel",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 216,
     "name": "Teddiursa",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 216,
     "image": "img/johto/teddiursa.png",
-    "alternative": "teddiursa"
+    "alternative": "teddiursa",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 217,
     "name": "Ursaring",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 217,
     "image": "img/johto/ursaring.png",
-    "alternative": "ursaring"
+    "alternative": "ursaring",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 218,
     "name": "Slugma",
+    "types": [
+      "fire"
+    ],
+    "pokedexNumber": 218,
     "image": "img/johto/slugma.png",
-    "alternative": "slugma"
+    "alternative": "slugma",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 219,
     "name": "Magcargo",
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "pokedexNumber": 219,
     "image": "img/johto/magcargo.png",
-    "alternative": "magcargo"
+    "alternative": "magcargo",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 220,
     "name": "Swinub",
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "pokedexNumber": 220,
     "image": "img/johto/swinub.png",
-    "alternative": "swinub"
+    "alternative": "swinub",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 221,
     "name": "Piloswine",
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "pokedexNumber": 221,
     "image": "img/johto/piloswine.png",
-    "alternative": "piloswine"
+    "alternative": "piloswine",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 222,
     "name": "Corsola",
+    "types": [
+      "water",
+      "rock"
+    ],
+    "pokedexNumber": 222,
     "image": "img/johto/corsola.png",
-    "alternative": "corsola"
+    "alternative": "corsola",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 223,
     "name": "Remoraid",
+    "types": [
+      "water"
+    ],
+    "pokedexNumber": 223,
     "image": "img/johto/remoraid.png",
-    "alternative": "remoraid"
+    "alternative": "remoraid",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 224,
     "name": "Octillery",
+    "types": [
+      "water"
+    ],
+    "pokedexNumber": 224,
     "image": "img/johto/octillery.png",
-    "alternative": "octillery"
+    "alternative": "octillery",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 225,
     "name": "Delibird",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "pokedexNumber": 225,
     "image": "img/johto/delibird.png",
-    "alternative": "delibird"
+    "alternative": "delibird",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 226,
     "name": "Mantine",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "pokedexNumber": 226,
     "image": "img/johto/mantine.png",
-    "alternative": "mantine"
+    "alternative": "mantine",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 227,
     "name": "Skarmory",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "pokedexNumber": 227,
     "image": "img/johto/skarmory.png",
-    "alternative": "skarmory"
+    "alternative": "skarmory",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 228,
     "name": "Houndour",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "pokedexNumber": 228,
     "image": "img/johto/houndour.png",
-    "alternative": "houndour"
+    "alternative": "houndour",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 229,
     "name": "Houndoom",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "pokedexNumber": 229,
     "image": "img/johto/houndoom.png",
-    "alternative": "houndoom"
+    "alternative": "houndoom",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 230,
     "name": "Kingdra",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "pokedexNumber": 230,
     "image": "img/johto/kingdra.png",
-    "alternative": "kingdra"
+    "alternative": "kingdra",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 231,
     "name": "Phanpy",
+    "types": [
+      "ground"
+    ],
+    "pokedexNumber": 231,
     "image": "img/johto/phanpy.png",
-    "alternative": "phanpy"
+    "alternative": "phanpy",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 232,
     "name": "Donphan",
+    "types": [
+      "ground"
+    ],
+    "pokedexNumber": 232,
     "image": "img/johto/donphan.png",
-    "alternative": "donphan"
+    "alternative": "donphan",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 233,
     "name": "Porygon2",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 233,
     "image": "img/johto/porygon2.png",
-    "alternative": "porygon2"
+    "alternative": "porygon2",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 234,
     "name": "Stantler",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 234,
     "image": "img/johto/stantler.png",
-    "alternative": "stantler"
+    "alternative": "stantler",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 235,
     "name": "Smeargle",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 235,
     "image": "img/johto/smeargle.png",
-    "alternative": "smeargle"
+    "alternative": "smeargle",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 236,
     "name": "Tyrogue",
+    "types": [
+      "fighting"
+    ],
+    "pokedexNumber": 236,
     "image": "img/johto/tyrogue.png",
-    "alternative": "tyrogue"
+    "alternative": "tyrogue",
+    "region":
+     "johto"
   },
   {
-    "pokedexNumber": 237,
     "name": "Hitmontop",
+    "types": [
+      "fighting"
+    ],
+    "pokedexNumber": 237,
     "image": "img/johto/hitmontop.png",
-    "alternative": "hitmontop"
+    "alternative": "hitmontop",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 238,
     "name": "Smoochum",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "pokedexNumber": 238,
     "image": "img/johto/smoochum.png",
-    "alternative": "smoochum"
+    "alternative": "smoochum",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 239,
     "name": "Elekid",
+    "types": [
+      "electric"
+    ],
+    "pokedexNumber": 239,
     "image": "img/johto/elekid.png",
-    "alternative": "elekid"
+    "alternative": "elekid",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 240,
     "name": "Magby",
+    "types":
+     [
+      "fire"
+    ],
+    "pokedexNumber": 240,
     "image": "img/johto/magby.png",
-    "alternative": "magby"
+    "alternative": "magby",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 241,
     "name": "Miltank",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 241,
     "image": "img/johto/miltank.png",
-    "alternative": "miltank"
+    "alternative": "miltank",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 242,
     "name": "Blissey",
+    "types": [
+      "normal"
+    ],
+    "pokedexNumber": 242,
     "image": "img/johto/blissey.png",
-    "alternative": "blissey"
+    "alternative": "blissey",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 243,
     "name": "Raikou",
+    "types": [
+      "electric"
+    ],
+    "pokedexNumber": 243,
     "image": "img/johto/raikou.png",
-    "alternative": "raikou"
+    "alternative": "raikou",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 244,
     "name": "Entei",
+    "types": [
+      "fire"
+    ],
+    "pokedexNumber": 244,
     "image": "img/johto/entei.png",
-    "alternative": "entei"
+    "alternative": "entei",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 245,
     "name": "Suicune",
+    "types": [
+      "water"
+    ],
+    "pokedexNumber": 245,
     "image": "img/johto/suicune.png",
-    "alternative": "suicune"
+    "alternative": "suicune",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 246,
     "name": "Larvitar",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "pokedexNumber": 246,
     "image": "img/johto/larvitar.png",
-    "alternative": "larvitar"
+    "alternative": "larvitar",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 247,
     "name": "Pupitar",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "pokedexNumber": 247,
     "image": "img/johto/pupitar.png",
-    "alternative": "pupitar"
+    "alternative": "pupitar",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 248,
     "name": "Tyranitar",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "pokedexNumber": 248,
     "image": "img/johto/tyranitar.png",
-    "alternative": "tyranitar"
+    "alternative": "tyranitar",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 249,
     "name": "Lugia",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "pokedexNumber": 249,
     "image": "img/johto/lugia.png",
-    "alternative": "lugia"
+    "alternative": "lugia",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 250,
     "name": "Ho-Oh",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "pokedexNumber": 250,
     "image": "img/johto/hooh.png",
-    "alternative": "hooh"
+    "alternative": "hooh",
+    "region": "johto"
   },
   {
-    "pokedexNumber": 251,
     "name": "Celebi",
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "pokedexNumber": 251,
     "image": "img/johto/celebi.png",
-    "alternative": "celebi"
+    "alternative": "celebi",
+    "region": "johto"
   }
 ]
