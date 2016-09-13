@@ -1,7 +1,13 @@
 package co.superiortech.pokemonquizzo.co.source.controllers;
 
 import android.content.DialogInterface;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.graphics.Picture;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.DrawableContainer;
+import android.graphics.drawable.PictureDrawable;
 import android.os.CountDownTimer;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
@@ -13,8 +19,11 @@ import android.view.MenuItem;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import java.io.IOException;
 import java.util.ArrayList;
 
 import co.superiortech.pokemonquizzo.R;
@@ -26,7 +35,6 @@ import co.superiortech.pokemonquizzo.co.source.json.parser;
 public class quizzo extends AppCompatActivity {
 
     protected EditText txtEntry;
-    //private ListView lstPokemonEntries;
     private GridView grdPokemonEntries;
     private long initialTime = (12 * 60 * 1000);// - 10000L;
     private CountDownTimer timer;
@@ -48,7 +56,6 @@ public class quizzo extends AppCompatActivity {
         super.onOptionsItemSelected(item);
         if (item.getItemId() == R.id.done) {
             gameUp("Game Over!");
-            timer.cancel();
         }
         return true;
     }
@@ -60,16 +67,13 @@ public class quizzo extends AppCompatActivity {
 
         this.correctPokemons = new ArrayList<>();
         this.txtEntry = (EditText) findViewById(R.id.txtEntry);
-        //this.lstPokemonEntries = (ListView) findViewById(R.id.lstPokemonEntries);
         this.grdPokemonEntries = (GridView) findViewById(R.id.lstPokemonEntries);
         final CardItemAdapter adapter = new CardItemAdapter(quizzo.this, R.layout.layout_regions_row, this.correctPokemons);
 
 
-
-        //lstPokemonEntries.setAdapter(adapter);
         grdPokemonEntries.setAdapter(adapter);
         this.getPokedex();
-        txtEntry.setHint(correctPokemons.size()+"/"+pokedexTotal);
+        txtEntry.setHint(correctPokemons.size() + "/" + pokedexTotal);
 
         txtEntry.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -78,36 +82,32 @@ public class quizzo extends AppCompatActivity {
                 int index = -1;
                 String entryText = txtEntry.getText().toString();
                 if (actionId == EditorInfo.IME_ACTION_SEND) {
-                    if (pokedex.size() > 0) {
-                        if ((index = pokemonExists(entryText, pokedex)) != -1) {
-                            correctPokemons.add(pokedex.remove(index));
-                            adapter.notifyDataSetChanged();
-                            //addMillisToCounter();
-                            txtEntry.setText("");
-                            txtEntry.setHint(correctPokemons.size()+"/"+pokedexTotal);
-                            txtEntry.setTextColor(Color.BLACK);
-                            //lstPokemonEntries.post(new Runnable() {
-                            grdPokemonEntries.post(new Runnable() {
-                                @Override
-                                public void run() {
-                                    //lstPokemonEntries.smoothScrollToPosition(correctPokemons.size() - 1);
-                                    grdPokemonEntries.smoothScrollToPosition(correctPokemons.size() - 1);
-                                }
-                            });
-                        } else if ((index = pokemonExists(entryText, quizzo.this.correctPokemons)) != -1) {
-                            String correctName = quizzo.this.correctPokemons.get(index).getName();
-                            Snackbar.make(v, correctName + " is already on the list!", Snackbar.LENGTH_SHORT).show();
-                            txtEntry.setText("");
-
-                        } else {
-                            //txtEntry.setTextColor(Color.RED);
-                            Snackbar.make(v, "Not found!", Snackbar.LENGTH_SHORT).show();
-                            txtEntry.setText("");
+                    if ((index = pokemonExists(entryText, pokedex)) != -1) {
+                        correctPokemons.add(pokedex.remove(index));
+                        adapter.notifyDataSetChanged();
+                        //addMillisToCounter();
+                        txtEntry.setText("");
+                        txtEntry.setHint(correctPokemons.size() + "/" + pokedexTotal);
+                        txtEntry.setTextColor(Color.BLACK);
+                        grdPokemonEntries.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                grdPokemonEntries.smoothScrollToPosition(correctPokemons.size() - 1);
+                            }
+                        });
+                        if (pokedex.size() < 1) {
+                            //algo tiene que hacer cuando el usuario gane
                         }
+                    } else if ((index = pokemonExists(entryText, quizzo.this.correctPokemons)) != -1) {
+                        String correctName = quizzo.this.correctPokemons.get(index).getName();
+                        Snackbar.make(v, correctName + " is already on the list!", Snackbar.LENGTH_SHORT).show();
+                        txtEntry.setText("");
+
+                    } else {
+                        Snackbar.make(v, "Not found!", Snackbar.LENGTH_SHORT).show();
+                        txtEntry.setText("");
                     }
-                    else{
-                        gameUp("Congratulations!");
-                    }
+
                     result = true;
                 }
 
@@ -145,7 +145,6 @@ public class quizzo extends AppCompatActivity {
     }
 
 
-
     private void generateTimer() {
         timer = new CountDownTimer(this.initialTime, 1000) {
 
@@ -180,7 +179,7 @@ public class quizzo extends AppCompatActivity {
 
         for (pokeInfo tmp : cList) {
             cont++;
-            if (tmp.getName().equals(pokeName) || tmp.getAlternative().equalsIgnoreCase(pokeName)) {
+            if (tmp.getName().equalsIgnoreCase(pokeName) || tmp.getAlternative().equalsIgnoreCase(pokeName)) {
                 result = cont - 1;
                 break;
             }
@@ -189,6 +188,9 @@ public class quizzo extends AppCompatActivity {
     }
 
     private void gameUp(String message) {
+        if(this.timer != null){
+            this.timer.cancel();
+        }
         setTitle(message);
         txtEntry.setText("");
         txtEntry.setEnabled(false);
@@ -199,5 +201,4 @@ public class quizzo extends AppCompatActivity {
             }
         }).create().show();
     }
-
 }
