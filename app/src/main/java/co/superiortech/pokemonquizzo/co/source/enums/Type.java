@@ -20,7 +20,8 @@ public enum Type {
     flying("#80deea"),
     fairy("#ea80fc"),
     ice("#18ffff"),
-    ghost("#9c27b0");
+    ghost("#9c27b0"),
+    dragon("#ff8a80");
 
     final private String value;
 

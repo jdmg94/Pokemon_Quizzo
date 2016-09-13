@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
+import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.TextView;
 import java.util.ArrayList;
@@ -25,7 +26,8 @@ import co.superiortech.pokemonquizzo.co.source.json.parser;
 public class quizzo extends AppCompatActivity {
 
     protected EditText txtEntry;
-    private ListView lstPokemonEntries;
+    //private ListView lstPokemonEntries;
+    private GridView grdPokemonEntries;
     private long initialTime = (12 * 60 * 1000);// - 10000L;
     private CountDownTimer timer;
     private String remainingTime;
@@ -58,12 +60,14 @@ public class quizzo extends AppCompatActivity {
 
         this.correctPokemons = new ArrayList<>();
         this.txtEntry = (EditText) findViewById(R.id.txtEntry);
-        this.lstPokemonEntries = (ListView) findViewById(R.id.lstPokemonEntries);
+        //this.lstPokemonEntries = (ListView) findViewById(R.id.lstPokemonEntries);
+        this.grdPokemonEntries = (GridView) findViewById(R.id.lstPokemonEntries);
         final CardItemAdapter adapter = new CardItemAdapter(quizzo.this, R.layout.layout_regions_row, this.correctPokemons);
 
 
 
-        lstPokemonEntries.setAdapter(adapter);
+        //lstPokemonEntries.setAdapter(adapter);
+        grdPokemonEntries.setAdapter(adapter);
         this.getPokedex();
         txtEntry.setHint(correctPokemons.size()+"/"+pokedexTotal);
 
@@ -82,10 +86,12 @@ public class quizzo extends AppCompatActivity {
                             txtEntry.setText("");
                             txtEntry.setHint(correctPokemons.size()+"/"+pokedexTotal);
                             txtEntry.setTextColor(Color.BLACK);
-                            lstPokemonEntries.post(new Runnable() {
+                            //lstPokemonEntries.post(new Runnable() {
+                            grdPokemonEntries.post(new Runnable() {
                                 @Override
                                 public void run() {
-                                    lstPokemonEntries.smoothScrollToPosition(correctPokemons.size() - 1);
+                                    //lstPokemonEntries.smoothScrollToPosition(correctPokemons.size() - 1);
+                                    grdPokemonEntries.smoothScrollToPosition(correctPokemons.size() - 1);
                                 }
                             });
                         } else if ((index = pokemonExists(entryText, quizzo.this.correctPokemons)) != -1) {
@@ -94,7 +100,9 @@ public class quizzo extends AppCompatActivity {
                             txtEntry.setText("");
 
                         } else {
-                            txtEntry.setTextColor(Color.RED);
+                            //txtEntry.setTextColor(Color.RED);
+                            Snackbar.make(v, "Not found!", Snackbar.LENGTH_SHORT).show();
+                            txtEntry.setText("");
                         }
                     }
                     else{
@@ -112,8 +120,22 @@ public class quizzo extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        this.finish();
+        /**
+         * for final version
+         */
+        //this.finish();
+
+        timer.cancel();
+
     }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        this.addMillisToCounter();
+    }
+
+    //DEPRECATED
 
     private void addMillisToCounter() {
         if (this.timer != null) {
@@ -121,6 +143,8 @@ public class quizzo extends AppCompatActivity {
         }
         this.generateTimer();
     }
+
+
 
     private void generateTimer() {
         timer = new CountDownTimer(this.initialTime, 1000) {
@@ -130,6 +154,7 @@ public class quizzo extends AppCompatActivity {
                 int mins = (int) Math.floor(millisUntilFinished / 60000);
                 int seconds = (int) (millisUntilFinished / 1000) - (mins * 60);
                 remainingTime = "Time Remaining: " + mins + ":" + (seconds < 10 ? "0" : "") + seconds;
+
                 setTitle(remainingTime);
                 initialTime = millisUntilFinished;
             }
